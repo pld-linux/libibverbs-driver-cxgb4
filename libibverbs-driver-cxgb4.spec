@@ -11,6 +11,8 @@ URL:		http://openib.org/
 BuildRequires:	libibverbs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%undefine	__cxx
+
 %description
 libcxgb4 is a userspace driver for the Chelsio T4 iWARP RNIC. It works
 as a plug-in module for libibverbs that allows programs to use Chelsio
@@ -33,8 +35,8 @@ Static version of cxgb4 driver, which may be linked directly into
 application.
 
 %description static -l pl.UTF-8
-Statyczna wersja sterownika cxgb4, którą można wbudować bezpośrednio
-w aplikację.
+Statyczna wersja sterownika cxgb4, którą można wbudować bezpośrednio w
+aplikację.
 
 %prep
 %setup -q -n libcxgb4-%{version}
