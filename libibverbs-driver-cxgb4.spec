@@ -1,12 +1,12 @@
 Summary:	Userspace driver for the Chelsio T4 iWARP RNIC
 Summary(pl.UTF-8):	Sterownik przestrzeni użytkownika dla kart Chelsio T4 iWARP RNIC
 Name:		libibverbs-driver-cxgb4
-Version:	1.3.1
+Version:	1.3.2
 Release:	1
 License:	BSD or GPL v2
 Group:		Libraries
 Source0:	http://www.openfabrics.org/downloads/cxgb4/libcxgb4-%{version}.tar.gz
-# Source0-md5:	86028c22bb2d9ee7d98417024116b86a
+# Source0-md5:	d6e9b98f0d58dff639662eae9866541b
 URL:		http://openib.org/
 BuildRequires:	libibverbs-devel
 # only checked for, not used
